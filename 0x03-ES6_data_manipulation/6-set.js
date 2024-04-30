@@ -1,5 +1,7 @@
 /* a function  that returns a Set from an array.*/
-
-const setFromArray = (arr) => new Set(arr);
+function setFromArray(array) {
+  const set = new Set(array);
+  return set;
+}
 
 export default setFromArray;

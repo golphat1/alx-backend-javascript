@@ -1,13 +1,15 @@
-/* returns a map of groceries with the following items (name, quantity)*/
+/* returns a map of groceries*/
+/* with the following items (name, quantity)*/
+function groceriesList() {
+  const groceries = new Map();
 
-const groceriesList = () => {
-  const map = new Map();
-  map.set('Apples', 10);
-  map.set('Tomatoes', 10);
-  map.set('Pasta', 1);
-  map.set('Rice', 1);
-  map.set('Banana', 5);
-  return map;
-};
+  groceries.set('Apples', 10);
+  groceries.set('Tomatoes', 10);
+  groceries.set('Pasta', 1);
+  groceries.set('Rice', 1);
+  groceries.set('Banana', 5);
+
+  return groceries;
+}
 
 export default groceriesList;

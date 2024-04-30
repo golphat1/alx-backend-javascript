@@ -1,5 +1,4 @@
-/* returns a map of groceries*/
-/* with the following items (name, quantity)*/
+// Function to create and return a map of groceries
 function groceriesList() {
   const groceries = new Map();
 
